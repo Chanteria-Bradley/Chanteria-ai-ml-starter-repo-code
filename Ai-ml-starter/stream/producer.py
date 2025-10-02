@@ -1,1 +1,0 @@
-# Optional: team-local event generator wrapper (implement if needed).
