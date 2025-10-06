@@ -1,3 +1,6 @@
+import json, time
+from kafka import KafkaProducer
+
 def json_serializer(d): return json.dumps(d).encode("utf-8")
 producer = KafkaProducer(
     bootstrap_servers=["localhost:9092"],
